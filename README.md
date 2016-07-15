@@ -9,7 +9,7 @@ If executed correctly script will create 2 files:
 * jiraIssues.csv - file with all jira issues that were loaded from Jira
 * plot_toC.pdf - PDF file with chart
 
-Chart example:
+
 Legend:
 * LT1W - issues completed in less then 1 week (green)
 * GT1W - issues completed in between 1 and 2 weeks time (orange)
