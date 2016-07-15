@@ -175,27 +175,14 @@ with open(issuesFilename, 'w') as f:
 
 end = time.time()
 
-
+#calculate execution time
 print(end - start)
 
 # Define command and arguments
 command = 'Rscript'
 path2script = 'TimeToCompleteGraph.R'
 
-
 print 'Execute R script'
-# check_output will run the command and store to result
-#subprocess.call(['Rscript', path2script, issuesFilename])
-
-#command = "Rscript TimeToCompleteGraph.R --args '" + issuesFilename + "'"
-
-# try:
-#     print subprocess.check_output(["Rscript", '--verbose', ".\TimeToCompleteGraph.R"], shell=True)
-# except subprocess.CalledProcessError, e:
-#     print "stdout output:\n", e.output
 
 cmd = ['RScript', 'TimeToCompleteGraph.R', issuesFilename]
 subprocess.check_output(cmd, universal_newlines=True)
-
-#proc = subprocess.Popen(parameters, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-#stdout, stderr = proc.communicate()
