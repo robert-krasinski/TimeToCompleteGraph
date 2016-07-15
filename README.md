@@ -1,2 +1,11 @@
 # TimeToCompleteGraph
 Python and R scripts creating pdf with weekly time to complete graph for Jira project
+
+Usage
+python2.7 "timeToComplete.py" --password your_jira_password --user your_jira_user --jira https://your_jira_address --project jira_prefix_of_your_project
+
+
+If executed correctly script will create 2 files:
+* jiraIssues.csv - file with all jira issues that were loaded from Jira
+* plot_toC.pdf - PDF file with graph
+
