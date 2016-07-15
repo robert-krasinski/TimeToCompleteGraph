@@ -7,5 +7,8 @@ python2.7 "timeToComplete.py" --password your_jira_password --user your_jira_use
 
 If executed correctly script will create 2 files:
 * jiraIssues.csv - file with all jira issues that were loaded from Jira
-* plot_toC.pdf - PDF file with graph
+* plot_toC.pdf - PDF file with chart
+
+Chart example:
+![alt example chart](https://github.com/robert-krasinski/TimeToCompleteGraph/blob/master/plot_toC_pdf__1_page__and_Screen_Shot_2016-07-13_at_16_01_05.png?raw=true)
 
