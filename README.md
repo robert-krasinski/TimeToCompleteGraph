@@ -23,3 +23,8 @@ If executed correctly script will create 2 files:
 
 * Python 2.7
 * R (tested with R scripting front-end version 3.3.0) - https://www.r-project.org/
+
+
+**Limitations**
+
+In the scripts are hard coded final states for your Jira process: ['Completed', 'Rejected', 'Reviewed', 'Resolved', 'Closed']. This should cover most of the cases but if your final states are named differently you should add state name to the lists in Python and R scripts.
