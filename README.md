@@ -11,9 +11,9 @@ If executed correctly script will create 2 files:
 
 Chart example:
 Legend:
-LT1W - issues completed in less then 1 week (green)
-GT1W - issues completed in between 1 and 2 weeks time (orange)
-GT2W - issues completed in more than 2 weeks (red)
+* LT1W - issues completed in less then 1 week (green)
+* GT1W - issues completed in between 1 and 2 weeks time (orange)
+* GT2W - issues completed in more than 2 weeks (red)
 
 ![alt example chart](https://github.com/robert-krasinski/TimeToCompleteGraph/blob/master/plot_toC_pdf__1_page__and_Screen_Shot_2016-07-13_at_16_01_05.png?raw=true)
 
