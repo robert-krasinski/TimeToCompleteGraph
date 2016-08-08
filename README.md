@@ -27,4 +27,4 @@ If executed correctly script will create 2 files:
 
 **Limitations**
 
-In the scripts are hard coded final states for your Jira process: ['Completed', 'Rejected', 'Reviewed', 'Resolved', 'Closed']. This should cover most of the cases but if your final states are named differently you should add state name to the lists in Python and R scripts.
+In the scripts are hard coded final states for your Jira process: ['To Do', 'Backlog', 'Completed', 'Rejected', 'Reviewed', 'Resolved', 'Closed']. This should cover most of the cases but if your final states are named differently you should add state name to the lists in Python and R scripts.
